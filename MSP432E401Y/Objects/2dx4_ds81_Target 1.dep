@@ -1,0 +1,64 @@
+Dependencies for Project '2dx4_ds81', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\PLL.c)(0x53EFBEAA)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (PLL.h)(0x533B6DDE)
+F (.\SysTick.c)(0x53F0088A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+F (.\vl53l1_platform_2dx4.c)(0x5E707450)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\vl53l1_platform_2dx4.o --omf_browse .\objects\vl53l1_platform_2dx4.crf --depend .\objects\vl53l1_platform_2dx4.d)
+I (tm4c1294ncpdt.h)(0x5E3CA26C)
+I (vl53l1_platform_2dx4.h)(0x5E61CC5E)
+I (vl53l1_types_2dx4.h)(0x5AE0C92C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9BB31A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9BB31A)
+I (onboardLEDs.h)(0x5E6E9F34)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9BB312)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9BB312)
+F (.\VL53L1X_api.c)(0x5E7075D0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\vl53l1x_api.o --omf_browse .\objects\vl53l1x_api.crf --depend .\objects\vl53l1x_api.d)
+I (VL53L1X_api.h)(0x5CD1DD96)
+I (vl53l1_platform.h)(0x5CCC68BE)
+I (vl53l1_types.h)(0x5AE0C92C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9BB31A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9BB31A)
+I (uart.h)(0x5E70329E)
+F (.\onboardLEDs.c)(0x5E6EDD0A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\onboardleds.o --omf_browse .\objects\onboardleds.crf --depend .\objects\onboardleds.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (tm4c1294ncpdt.h)(0x5E3CA26C)
+I (SysTick.h)(0x53F0088A)
+I (onboardLEDs.h)(0x5E6E9F34)
+F (.\uart.c)(0x5E7032CC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (uart.h)(0x5E70329E)
+I (tm4c1294ncpdt.h)(0x5E3CA26C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9BB31A)
+F (.\2dx4_ds81.c)(0x5E791D7A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\2dx4_ds81.o --omf_browse .\objects\2dx4_ds81.crf --depend .\objects\2dx4_ds81.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (tm4c1294ncpdt.h)(0x5E3CA26C)
+I (vl53l1x_api.h)(0x5CD1DD96)
+I (vl53l1_platform.h)(0x5CCC68BE)
+I (vl53l1_types.h)(0x5AE0C92C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9BB318)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9BB31A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9BB31A)
+I (PLL.h)(0x533B6DDE)
+I (SysTick.h)(0x53F0088A)
+I (uart.h)(0x5E70329E)
+I (onboardLEDs.h)(0x5E6E9F34)
+F (RTE\Device\MSP432E401Y\startup_msp432e401y_uvision.s)(0x59E52B3C)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "__MSP432E401Y__ SETA 1"--list .\listings\startup_msp432e401y_uvision.lst --xref -o .\objects\startup_msp432e401y_uvision.o --depend .\objects\startup_msp432e401y_uvision.d)
+F (RTE\Device\MSP432E401Y\system_msp432e401y.c)(0x5B6A238C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -D__MSP432E401Y__-o .\objects\system_msp432e401y.o --omf_browse .\objects\system_msp432e401y.crf --depend .\objects\system_msp432e401y.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9BB318)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include\msp.h)(0x5B6A238C)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include\msp432e401y.h)(0x5BC128DE)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2671B6)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2671B6)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2671B6)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2671B6)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C902ED4)
+I (C:\Users\doyle\AppData\Local\Arm\Packs\TexasInstruments\MSP432E4_DFP\3.2.6\Device\Include\system_msp432e401y.h)(0x5B6A238C)

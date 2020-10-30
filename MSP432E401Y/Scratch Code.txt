@@ -1,0 +1,32 @@
+	
+  /* This function must to be called to initialize the sensor with the default setting  */
+  status = VL53L1X_SensorInit(dev);
+  /* Optional functions to be used to change the main ranging parameters according the application requirements to get the best ranging performances */
+//  status = VL53L1X_SetDistanceMode(dev, 2); /* 1=short, 2=long */
+//  status = VL53L1X_SetTimingBudgetInMs(dev, 100); /* in ms possible values [20, 50, 100, 200, 500] */
+//  status = VL53L1X_SetInterMeasurementInMs(dev, 200); /* in ms, IM must be > = TB */
+
+  status = VL53L1X_StartRanging(dev);   /* This function has to be called to enable the ranging */
+
+	for(int i = 0; i < 50; i++) {
+//  while(1){ /* read and display data */
+		FlashLED4(1);
+	  while (dataReady == 0){
+		  status = VL53L1X_CheckForDataReady(dev, &dataReady);
+			SysTick_Wait10ms(1);
+	  }
+	  dataReady = 0;
+//	  status = VL53L1X_GetRangeStatus(dev, &RangeStatus);
+	  status = VL53L1X_GetDistance(dev, &Distance);
+//		UART_OutWord(Distance);
+//		UART_OutChar(13);
+		debugArray[i] = Distance;
+//	  status = VL53L1X_GetSignalRate(dev, &SignalRate);
+//	  status = VL53L1X_GetAmbientRate(dev, &AmbientRate);
+//	  status = VL53L1X_GetSpadNb(dev, &SpadNum);
+//	  status = VL53L1X_ClearInterrupt(dev); /* clear interrupt has to be called to enable next interrupt*/
+//	  printf("%u, %u, %u, %u, %u\n", RangeStatus, Distance, SignalRate, AmbientRate,SpadNum);
+		
+	SysTick_Wait10ms(50);
+  }
+	VL53L1X_StopRanging(dev);

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd0b5c81-f8d8-4b87-abf9-cead160d279a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aJzMmV1f2gCcEKM69Tyk9KHMvy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="visualizedata" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Miscellaneous\Projects\2DX4\Final\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Miscellaneous\Projects\2DX4\Final\visualizedata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd0b5c81-f8d8-4b87-abf9-cead160d279a" name="Default Changelist" comment="" />
+      <created>1586468438592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586468438592</updated>
+      <workItem from="1586468441529" duration="1484000" />
+      <workItem from="1586469956704" duration="10644000" />
+      <workItem from="1586523502618" duration="3132000" />
+      <workItem from="1586537812851" duration="6859000" />
+      <workItem from="1586627010317" duration="11681000" />
+      <workItem from="1586723924083" duration="792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586468905356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586468905356" />
+    <state x="723" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586632095920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586632095920" />
+    <state x="740" y="283" key="FileChooserDialogImpl" timestamp="1586634910294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586634910294" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1586660667700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586660667700" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1586660667700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586660667700" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1586660667700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586660667700" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1586660667700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586660667700" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586543586010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586543586010" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586469959166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586469959166" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Final$pulldata.coverage" NAME="visualizedata Coverage Results" MODIFIED="1586660657832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
